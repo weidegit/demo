@@ -1,0 +1,337 @@
+#bd{
+	overflow: hidden;
+	background: #CCCCCC;
+	margin-bottom: 40px;
+	
+}
+#bd>div{
+	overflow: hidden;
+
+}
+#bd .introdution{
+	overflow: hidden;
+	background: #FFFFFF;
+}
+#introl{
+	float: left;
+	margin-right: 20px;
+}
+#introc{
+	float: left;
+}
+#intror{
+	float: left;
+}
+
+
+#magnify{
+	width: 270px;
+	height: 360px;
+	margin: 40px 40px;
+	margin-right: 10px;
+	position: relative;
+}
+#magnify img{
+	width: 270px;
+	height: 360px;
+}
+#bigDiv{
+	
+	width: 270px;
+	height: 360px;
+	position: absolute;top: 0;left: 280px;
+	/*background: red;*/
+	overflow: hidden;
+	display: none;
+}
+
+       /* #magnify img {
+            width: 200px; height: 200px;
+        }*/
+        #move {
+            width: 100px; height: 100px;
+            background: #000000;
+            opacity : 0.5;
+            filter : alpha(opacity=50);
+            position: absolute; left: 0; top: 0;
+            display : none;
+            
+        }
+        /*#bigDiv {
+            width: 250px; height: 250px;
+            overflow : hidden;
+            position: absolute; left: 210px; top: 0;
+            display : none;
+        }*/
+        #bigDiv img {
+            width: 470px; height: 560px;
+            position: absolute; left: 0; top: 0;
+        }
+        
+
+#box{
+	/*background: red;*/
+	width: 280px;
+	height: 62px;
+	overflow: hidden;
+	position: relative;
+	overflow: hidden;
+	margin: 20px 30px;
+}
+#aposition{
+	position: relative;
+}
+#aposition a:first-of-type{
+	position: absolute;top: 15px;left: 15px;
+}
+#aposition a:last-of-type{
+	position: absolute;top: 15px;left: 310px;
+	
+}
+#contain{
+	width: 400px;
+	height: 62px;
+	position: absolute;top: 0;left: 0;
+}
+#contain img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+#contain img.active{
+	border: 1px solid #000000;
+}
+
+
+#introc{
+	/*background: pink;*/
+}
+#introc p {
+	overflow: hidden;
+}
+#introc p .selspan{
+	display: block;
+	float: left;
+	text-align: center;
+	width: 90px;
+	height: 37px;
+	line-height: 36px;
+}
+#introc p a{
+   
+	float: left;
+	padding: 5px 2px;
+	border: 1px solid #ccc;
+	margin-right: 20px;
+	font-size: 12px;
+}
+#introc p a button{
+	display: none;
+}
+#selcolor a{
+	/*background: red;*/
+	
+}
+#selcolor a img{
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+#introc p a.active{
+	/*background: limegreen;*/
+	border: 1px solid #000000;
+	
+}
+#selsize a{
+	display: block;
+	margin-top: 5px;
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	/*background: red;
+*/}
+#pay input{
+	float: left;
+	width: 20px;
+	height: 42px;
+	padding: 0 15px;
+	font-size: 16px;
+	text-align: center;
+	border: 1px solid #777777;
+	margin-left: 10px;
+ 	
+	
+}
+#pay div{
+	float: left;
+	margin-bottom: 20px;
+}
+#pay div a{
+	display: block;
+	width: 40px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #777777;
+	border-left: 0px solid #777777;
+	
+}
+#pay>a{
+	float: left;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	
+	border: 1px solid #777777;
+}
+#purnow{
+	margin:0px 30px;
+}
+
+
+
+#goodscode{
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+
+#bd-b{
+
+	overflow: hidden;
+
+	
+}
+#bd-b .bd-bl{
+	width: 990px;
+	
+	float: left;
+	overflow: hidden;
+	background: #FFFFFF;
+	
+}
+#bd-b .bd-br{
+	float: right;
+	width: 190px;
+	background: #FFFFFF;
+	
+}
+#imgUl{
+	width: 190px;
+}
+#imgUl li{
+	width: 170px;
+	padding: 10px;
+	/*background: lime;*/
+	margin-bottom: 20px;
+	
+}
+#imgUl li img{
+	display: block;
+	width: 170px;
+	height: 200px;
+}
+#imgUl p i{
+	font-style: normal;
+	text-decoration:line-through;
+	
+}
+
+#bd-bul{
+	float: left;
+	
+	overflow: hidden;
+
+}
+#bd-b .bd-ba1{
+	float: right;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	padding: 0 15px;
+}
+.red{
+	background: #FF0000;
+}
+#bd-bul li{
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	border-right: 1px solid #FFFFFF;
+}
+#bd-b div h1{
+	overflow: hidden;
+	
+}
+#bd-b .bd-blt{
+	overflow: hidden;
+	background: #666666;
+	
+}
+
+
+#bd-b .bd-blb h3{
+	padding: 10px 10px;
+	background: url(../img/bgline.png) repeat-x 0 0 ;
+	height: 41px;
+	font-weight: normal;
+}
+#bd-b .bd-blb h3 a{
+	color: #CCCCCC;
+	font-weight: normal;
+	
+}
+#bd-b .bd-blb{
+	padding: 0 40px;
+}
+#detailimg{
+	width: 750px;
+	margin: 0 auto;
+}
+#detailimg img{
+	width: 750px;
+}
+
+
+#del{
+	border-bottom: 2px solid #000000;
+	padding: 0 5px 10px 15px;
+	
+}
+#del img{
+	float: right;
+	
+}
+
+ 
+
+#lastimg{
+	width: 90px;
+	
+	padding: 10px 0 10px 15px;
+	height: 160px;
+}
+#lastimg img{
+	width: 90px;
+	height: 120px;
+	width: 100%;
+}
+#lastimg a{
+	display: block;
+	width: 90px;height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #FF0000;
+	
+}
+
+.hide{
+	display: none;
+}

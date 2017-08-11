@@ -1,0 +1,226 @@
+*{
+	margin: 0; padding: 0;
+	
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.layout{
+	width: 1190px;
+	margin: 0 auto;
+}
+#hd {
+	width: 100%;
+	min-width: 1190px;
+}
+
+#hdtop {
+	height: 34px;
+	border-bottom: 1px solid #fff;
+	background-color: #eee;
+}
+
+#hdtop .top-side {
+	width: 1190px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#hdtop .top-side .u1 {
+	float: left;
+	overflow: hidden;
+	padding-left: 4px;
+}
+
+#hdtop .top-side .u2 {
+	float: right;
+	overflow: hidden;
+}
+
+#hdtop .top-side ul li {
+	float: left;
+	padding: 5px;
+	color: #666;
+	font-size: 12px;
+}
+
+#hdtop .top-side ul li a:hover {
+	color: #f00;
+	cursor: pointer;
+}
+
+#hdbg {
+	width: 100%;
+	height: 78px;
+}
+
+#hd .hd-b{
+	padding: 5px 0;
+}
+
+#bd{
+	background: #CCCCCC;
+	/*height: 1000px;*/
+	padding-bottom: 20px;
+}
+
+#content{
+	width: 980px;
+	margin: 0 auto;
+	
+}
+#content-b{
+	margin-top: 20px;
+	background: #FFFFFF;
+	padding: 0 20px 20px 20px;
+	
+}
+#content-b>div{
+	margin: 15px 0;
+
+}
+#content-b .padding{
+	padding: 20px;
+	
+}
+#content-b .cartsteps{
+	/*height: 100px;
+	border: 1px solid #ccc;	*/
+	
+
+}
+#content-b .cartsteps img{
+	margin: 10px 0;
+	
+}
+#content-b .address{
+/*	height: 300px;*/
+	border: 1px solid #ccc;
+	background: pink;
+}
+#content-b .address ul {
+	background: #EEEEEE;
+	margin: 10px 30px;
+	padding: 20px 30px;
+}
+#content-b .address ul li{
+	padding: 5px 0;
+	
+	
+}
+ .address ul li>span{
+	display: inline-block;
+	width: 90px;
+	text-align: center;
+}
+#content-b .address ul li .li.span{
+	width: 300px;
+}
+
+
+#content-b .paystyle{
+	/*height: 300px;*/
+	border: 1px solid #ccc;
+}
+#content-b .paystyle input,img{
+	vertical-align: middle;
+}
+#content .invoice{
+	/*height: 300px;*/
+	border: 1px solid #ccc;
+}
+#content-b .hidmoney{
+	/*height: 300px;*/
+	/*border: 1px solid #ccc;*/
+}
+#content-b .hidmoney div{
+	margin: 5px 0;
+}
+#content-b .hidmoney .border{
+	display: block;
+	width: 120px;
+	height: 25px;
+	border: 1px solid #FF0000;
+	border-left: 4px solid #FF0000;
+}
+#content-b .submitlist{
+	/*height: 300px;*/
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+#content-b .submitlist p{
+	text-align: right;
+}
+#content-b .submitlist p b{
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+	margin-left: 20px;
+}
+#content-b .submitlist input{
+    height:40px ;
+	width: 140px;
+
+}
+#content-b .submitlist .subbtn{
+	margin-right: 40px;
+	
+	overflow: hidden;
+	height:40px ;
+	width: 140px;
+	float: right;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ft{
+	/*height: 1000px;*/
+	/*background: lime;*/
+	padding-top: 40px;
+}
+#ft ul {
+	overflow: hidden;
+	padding: 20px 0;
+	padding-left: 150px;
+}
+
+#ft ul li {
+	float: left;
+	padding: 0 10px;
+	border-right: 1px solid #000000;
+	font-size: 10px;
+}
+
+#ft ul li:nth-last-child {
+	border-right: 0px solid #000000;
+}
+
+#ft p {
+	text-align: center;
+	font-size: 10px;
+	color: #CCCCCC;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+#ft p img {
+	float: left;
+}
+
+#ft p img:first-child {
+	margin: 10px 490px;
+	margin-right: 20px;
+}

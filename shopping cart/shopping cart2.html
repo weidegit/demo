@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>银泰 购物车</title>
+	</head>
+
+	<link rel="stylesheet" type="text/css" href="css/shopping2.css" />
+	<script src="../common/jquery-1.11.3.js"></script>
+	<script src="js/shopping2.js"></script>
+
+	<body>
+		<div id="hd">
+			<div id="hdtop">
+				<div class="top-side">
+					<ul class="u1">
+						<li>
+							<a>银泰首页</a>
+						</li>
+						<li>
+							<a>微信</a>
+						</li>
+						<li>
+							<a>手机银泰</a>
+						</li>
+					</ul>
+					<ul class="u2">
+						<li>
+							<span>Hi，欢迎来到银泰网！</span>
+							<a href="../login/login.html">登录</a>
+							<a href="../register/register.html">注册</a>
+						</li>
+						<li>
+							<a>我的订单</a>
+						</li>
+						<li>
+							<a>我的银泰</a>
+						</li>
+						<li>
+							<a>银泰卡</a>
+						</li>
+						<li>
+							<a>帮助中心</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="bd-b layout">
+				<a href="../index.html"><img src="img/logo.png" /></a>
+			</div>
+		</div>
+		<div id="bd">
+			<div id="content">
+				
+				
+				
+				<div>
+					<img src="img/bdimg1.png" />
+				</div>
+				
+				
+				
+				
+				
+				<div id="content-b">
+					<div class="cartsteps">
+						<img src="img/step2.png" />
+					</div>
+					<div class="address padding">
+						<div>
+							<h3>收货信息</h3>
+						</div>
+						<div>
+							<input type="radio" checked="checked"/><a>使用新地址</a>
+						</div>
+						
+							<ul>
+								<li><span>收货人：</span><input type="text" />
+									
+								</li>
+								<li><span>手机：</span><input type="text" />
+								    <em>或者</em>固定电话：<input type="text" />-<input type="text" />-<input type="text" />
+								</li>
+								<li><span>收货地址：</span>
+									<select id="provSel">
+								        <option>请选择省份</option>
+								    </select>
+								    <select id="citySel">
+								        <option>请选择地市</option>
+								    </select>
+								    <select id="countySel">
+								        <option>请选择区县</option>
+								    </select>
+									
+								</li>
+								<li><span>邮政编码：</span><input type="text" /></li>
+								<li><span></span></li>
+								<li><span>送货时间：</span>
+									<div>
+										<span class="li.span"><input type="radio" name="aaa"/>工作日送货<em>周一至周五，早上9:00至晚6:00</em></span><br/>
+								        <span class="li.span"><input type="radio" name="aaa"/>节假日日送货<em>周六日及国家法定节假日</em></span><br/>
+								        <span class="li.span"><input type="radio" name="aaa"/>任何时间送货</span>
+									</div>
+								    
+								    
+ 								</li>
+								
+							</ul>
+							<button value="">确认收货信息</button>
+					    <div>
+						</div>
+					</div>
+					<div class="paystyle padding">
+						<div>
+							<h3>支付方式<a>【修改】</a></h3>
+						</div>
+						<div>
+							您本次购物需支付 <a>￥124.00 </a>元
+						</div>
+						<div>
+							<input type="radio" checked="checked" />
+							<img src="img/zhifubao.png" />
+						</div>
+					</div>
+					<div class="invoice padding">
+						<div>
+							<h3>发票信息<a>【修改】</a></h3>
+						</div>
+						<div id="">
+							发票信息 - 无
+						</div>
+					</div>
+					<h3>商品清单</h3>
+					<h4>以下商品将由CMYK银泰官方旗舰店发出</h4>
+					<div class="purlist">
+						<img src="img/purimg.png" />
+					</div>
+					<div class="hidmoney">
+						<div>
+							<input type="radio" name="" id="" value="" />隐藏订单金额
+						</div>
+						<div>
+							<a class="border">使用优惠券</a>
+						</div>
+						<div></div>
+						<div>
+							<a class="border">使用银泰卡支付</a>
+						</div>
+						<div></div>
+						
+						<div></div>
+					</div>
+					<div class="submitlist padding">
+						<div id="">
+							<p><span><em>您已选<strong>1</strong>件商品</em>商品总价:</span><b>¥109.00</b></p>
+							<p><span>节省金额:</span><b></b></p>
+							<p><span>运费:</span><b>15</b></p>
+							<p><span>需支付金额:</span><b>¥124.00</b></p>
+						</div>
+						<div class="subbtn">
+                             <input type="button" value="提交订单"  id="submit"/>
+						</div>
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div id="ft" class="layout">
+			<span class="layout bdcal">
+	            	<img src="../img/sec/bdcal.png" />
+	            </span>
+			<ul>
+				<li>关于银泰</li>
+				<li>帮助中心</li>
+				<li>退换货政策</li>
+				<li>网站地图</li>
+				<li>代理合作</li>
+				<li>品牌招商</li>
+				<li>商务合作</li>
+				<li>网站联盟</li>
+				<li>联系我们</li>
+				<li>加入银泰</li>
+				<li>版权声明</li>
+				<li>法律声明</li>
+			</ul>
+			<p>浙ICP备10200233号&nbsp;&nbsp;京公网安备110105019085&nbsp;&nbsp;增值电信业务经营许可证&nbsp;浙B2-20110005</p>
+			<p>Copyright © 2010-2017，浙江银泰电子商务有限公司</p>
+			<p>
+				<img src="../img/ft/yt-ntegrity.png" />
+				<img src="../img/ft/commerce.gif" />
+
+			</p>
+
+		</div>
+		<script src="ajax.js"></script>
+    <script>
+        
+            
+            var allData = null;
+            
+            function loadAllData(){
+                ajax("GET", "allCity.json", null, function (data){
+                    allData = JSON.parse(data);
+                    loadProvince(); 
+                });
+            };
+            loadAllData();
+
+          
+            function loadProvince(){
+                
+                var provs = allData.regions;
+                
+                var sele1 = document.getElementById('provSel');
+                sele1.innerHTML = "<option>请选择省份</option>";
+                
+                for(var i = 0; i < provs.length; i++){
+                   
+                    var provName = provs[i].name;
+                
+                    var opt = document.createElement('option');
+                    opt.innerHTML = provName;
+                 
+                    sele1.appendChild(opt);
+                }
+
+               
+                sele1.onchange = function (){
+                   
+                    loadCity(this.value);
+                   
+                    var sele3 = document.getElementById('countySel');
+                    sele3.innerHTML = "<option>请选择区县</option>";
+                };
+
+            }
+
+      
+            function loadCity(prov){
+                
+                var sele2 = document.getElementById('citySel');
+              
+                var provs = allData.regions;
+                
+                for(var i = 0; i < provs.length; i++){
+                   
+                    var provName = provs[i].name;
+                   
+                    if(provName == prov && provs[i].regions){
+                       
+                        var cities = provs[i].regions;
+                       
+                        sele2.innerHTML = "<option>请选择地市</option>";
+                        for(var j = 0; j < cities.length; j++){
+                         
+                            var cityName = cities[j].name;
+                           
+                            var opt = document.createElement('option');
+                            opt.innerHTML = cityName;
+                            sele2.appendChild(opt);
+                        }
+                       
+                        break;
+                    }
+                }
+
+               
+                sele2.onchange = function (){
+                   
+                    loadCounty2(cities, this.value);
+                };
+            }
+
+            function loadCounty2(cities, city){
+                
+                var sele3 = document.getElementById('countySel');
+                for(var j = 0; j < cities.length; j++){
+                    if(cities[j].name == city){
+                     
+                        var counties = cities[j].regions;
+                        
+                        sele3.innerHTML = "<option>请选择区县</option>";
+                        for(var k = 0; k < counties.length; k++){
+                        
+                            var countyName = counties[k].name;
+                     
+                            var opt = document.createElement('option');
+                            opt.innerHTML = countyName;
+                       
+                            sele3.appendChild(opt);
+                        }
+                        break;
+                    }
+                }
+            }
+
+            
+            function loadCounty(prov, city){
+               
+                var provs = allData.regions;
+              
+                var sele3 = document.getElementById('countySel');
+             
+                for(var i = 0; i < provs.length; i++){
+                    if(provs[i].name == prov){
+                        
+                        var cities = provs[i].regions;
+                        for(var j = 0; j < cities.length; j++){
+                            if(cities[j].name == city){
+                          
+                                var counties = cities[j].regions;
+                            
+                                sele3.innerHTML = "<option>请选择区县</option>";
+                                for(var k = 0; k < counties.length; k++){
+                       
+                                    var countyName = counties[k].name;
+                          
+                                    var opt = document.createElement('option');
+                                    opt.innerHTML = countyName;
+                            
+                                    sele3.appendChild(opt);
+                                }
+                                break;
+                            }
+                        }
+
+                        break;
+                    }
+                }
+            }
+        
+    </script>
+	</body>
+
+</html>
